@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mickyle\\source\\repos\\BeerSong\\BeerSong\\BeerSong.csproj": {}
+    "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\BeerSong\\BeerSong\\BeerSong.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mickyle\\source\\repos\\BeerSong\\BeerSong\\BeerSong.csproj": {
+    "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\BeerSong\\BeerSong\\BeerSong.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mickyle\\source\\repos\\BeerSong\\BeerSong\\BeerSong.csproj",
+        "projectUniqueName": "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\BeerSong\\BeerSong\\BeerSong.csproj",
         "projectName": "BeerSong",
-        "projectPath": "C:\\Users\\Mickyle\\source\\repos\\BeerSong\\BeerSong\\BeerSong.csproj",
+        "projectPath": "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\BeerSong\\BeerSong\\BeerSong.csproj",
         "packagesPath": "C:\\Users\\Mickyle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mickyle\\source\\repos\\BeerSong\\BeerSong\\obj\\",
+        "outputPath": "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\BeerSong\\BeerSong\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

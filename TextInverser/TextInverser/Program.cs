@@ -9,17 +9,32 @@ namespace TextInverser
             Console.WriteLine("Enter text and I'll invert it for you:");
             string word = Console.ReadLine();
             string invword = null;
+            inverter(word, invword);
+            
             
 
-            for (int i = word.Length - 1; i >= 0 ; i--)
+        }
+
+
+
+
+        static void inverter(string a, string b)
+        {
+
+            for (int i = a.Length - 1; i >= 0; i--)
             {
-                
-                invword = invword + word[i];
-                
+
+                b = b + a[i];
+
             }
-            Console.WriteLine($"{word} inverted to {invword}");
+            Console.WriteLine($"{a} inverted to {b}");
             Console.WriteLine("Is this text a palindrome? ");
-            if (invword == word)
+            palidrome(a, b);
+        }
+
+        static void palidrome(string c, string d)
+        {
+            if (d == c)
             {
                 Console.WriteLine("True");
             }
@@ -27,7 +42,6 @@ namespace TextInverser
             {
                 Console.WriteLine("False");
             }
-
         }
     }
 }
