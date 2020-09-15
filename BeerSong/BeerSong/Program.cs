@@ -6,8 +6,8 @@ namespace BeerSong
     {
         static void Main(string[] args)
         {
-            int count = 99;
-            Beersong(count);
+            int numOfBottles = 99;
+            Beersong(numOfBottles);
            
        }
 
@@ -17,11 +17,25 @@ namespace BeerSong
         {
             for (int i = 1; i <= 99; i++)
             {
-                //int amountofbot = count;
-                Console.WriteLine($"{num} bottles of beer on the wall,{num} bottles of beer.");
+                string s = "s ";
+                if (num == 1)
+                {
+                    s = " ";
+                }
+
+                Console.WriteLine($"{num} bottle{s}of beer on the wall,{num} bottle{s}of beer.");
                 num = num - 1;
-                Console.WriteLine($"Take one down and pass it around,{num} bottles of beer on the wall.");
-                //count = newcount;
+
+                if (num == 1)
+                {
+                    s = " ";
+                }
+                if (num == 0)
+                {
+                    s = "s ";
+                }
+                Console.WriteLine($"Take one down and pass it around,{num} bottle{s}of beer on the wall.");
+                
             }
         }
     }
