@@ -15,7 +15,9 @@ namespace BeerSong
 
         static void Beersong(int num)
         {
-            for (int i = 1; i <= 99; i++)
+            int count = num;
+
+            for (int i = 1; i <= count; i++)
             {
                 string s = "s ";
                 if (num == 1)
