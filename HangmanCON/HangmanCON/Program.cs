@@ -176,7 +176,7 @@ namespace HangmanCON
                         letter = Console.ReadLine();
                         i = 0;
                     }
-                    if (letter.Length > 1)
+                   else if (letter.Length > 1)
                     {
                         Console.WriteLine(" ");
                         Console.Write("Only type one letter at a time! Try again :");
@@ -188,6 +188,15 @@ namespace HangmanCON
                     {
                         Console.WriteLine(" ");
                         Console.Write("Letter already used!! please pick another one :");
+                        Console.WriteLine(" ");
+                        letter = Console.ReadLine();
+                        i = 0;
+
+                    }
+                    else if (letter.Contains("1") || letter.Contains("2") || letter.Contains("3") || letter.Contains("4") || letter.Contains("5") || letter.Contains("6") || letter.Contains("7") || letter.Contains("8") || letter.Contains("9"))
+                    {
+                        Console.WriteLine(" ");
+                        Console.Write("You inputed a number, Please try again!!");
                         Console.WriteLine(" ");
                         letter = Console.ReadLine();
                         i = 0;
