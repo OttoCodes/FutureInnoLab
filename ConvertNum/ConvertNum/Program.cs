@@ -10,25 +10,23 @@ namespace ConvertNum
 
         static void Main(string[] args)
         {
-            
-                  
-                Console.WriteLine("Enter number to convert it to words:");
-                string stringNum = Console.ReadLine();
-                int number = Int32.Parse(stringNum);
+              Console.WriteLine("Enter number to convert it to words:");
+              string stringNum = Console.ReadLine();
+              int number = Int32.Parse(stringNum);
 
-            string newNumber = ConvertToWord(number);
-            Console.WriteLine(newNumber);
+              string newNumber = ConvertToWord(number);
+              Console.WriteLine(newNumber);
         }
        
         public static string ConvertToWord(int num)
         {
 
-            string[] wordsofnumbers = {"zero","one","two","three","four","five","six","seven","eight","nine","ten",
-                                   "eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"};
+            string[] wordsofnumbers = {"Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten",
+                                   "Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen"};
 
-            string[] wordsoftens = {"twenty", "thirty", "fourty", "fifty", "sixty", "seventy", "eighty", "ninty"};
+            string[] wordsoftens = {"Twenty", "Thirty", "Fourty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninty"};
 
-            string[] wordsofmore= { "hundred", "thousand", "million", "billion"};
+            string[] wordsofmore= { "Hundred", "Thousand", "Million"};
             string numberInWord = null;
 
 
@@ -70,7 +68,7 @@ namespace ConvertNum
                                 }
                                 else if (x > 0 && (num < 100000) && (num > 1000))
                                 {
-                                    numberInWord = numberInWord + ' ' + wordsofnumbers[x] + ' ' + wordsofmore[0] ;
+                                    numberInWord = numberInWord + ' ' + wordsofnumbers[x] + ' ' + wordsofmore[0] + ' ' + "and" ;
 
 
 
@@ -84,7 +82,7 @@ namespace ConvertNum
                                 }
                                 else if (x > 0 && (num >= 0) && (num <= 99))
                                 {
-                                    numberInWord = numberInWord + ' ' + wordsoftens[x] + ' ' + wordsofmore[0] + wordsofmore[1] + ' ' + "and" + ' ';
+                                    numberInWord = numberInWord + ' ' + wordsoftens[x] + ' ' + wordsofmore[0] + wordsofmore[1] + ' ' + "and";
                                 }
                                 if (num < 20000)
                                 {
@@ -99,7 +97,7 @@ namespace ConvertNum
                                     }
                                     if (z >= 2 && (num >= 0) && (num <= 99))
                                     {
-                                        numberInWord = numberInWord + ' ' + wordsoftens[z - 2] + ' ' + wordsofmore[1] + ' ' + "and" + ' ';
+                                        numberInWord = numberInWord + ' ' + wordsoftens[z - 2] + ' ' + wordsofmore[1] + ' ' + "and" ;
                                     }
                                     else if (z >= 2 && num <10000)
                                     {
