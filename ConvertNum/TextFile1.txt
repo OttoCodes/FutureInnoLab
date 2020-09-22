@@ -1,0 +1,57 @@
+if ((num < 20000) && (num > 10000))
+                                    {
+
+                                        int store = 0;
+
+                                        for (int p = 1000; p < 19000; p += 1000)
+                                        {
+                                            store++;
+                                            
+                                            if (p > num)
+                                            {
+                                                num += p;
+                                                store--;
+                                                break;
+                                            }
+                                        }
+                                        numberInWord = numberInWord + wordsofnumbers[store] + ' ' + wordsofmore[1];
+                                        Console.WriteLine(num);
+                                        break;
+                                    }
+                                    Console.WriteLine(num);
+
+                                    if (num < 10000)
+                                    {
+                                        if ((z > 1) && (num >= 1000))
+                                        {
+                                            numberInWord = numberInWord + ' ' + wordsoftens[z - 2];
+                                            break;
+                                            
+                                        }
+
+                                        if ((z > 1) && (num < 1000) && (num != 0) )
+                                        {
+                                            numberInWord = numberInWord + wordsoftens[z - 2] + ' ' + wordsofmore[1] + ' ' + "and" + ' ' ;
+                                            break;
+                                            
+                                        }
+                                        if ((z > 1) && (num == 0))
+                                        {
+                                            numberInWord = numberInWord + wordsoftens[z - 2] + ' ' + wordsofmore[1];
+                                            break;
+
+                                        }
+
+                                        else if (num == 0)
+                                        {
+                                            return numberInWord;
+                                        }
+
+
+
+                                    }
+
+                                    if (num <10000)
+                                    {
+                                        break;
+                                    }
