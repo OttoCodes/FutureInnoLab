@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Banking;
 
 namespace Assignment_6
 {
@@ -13,6 +14,7 @@ namespace Assignment_6
         public MainPage()
         {
             InitializeComponent();
+            Bank me = new Bank();
         }
     }
 }
