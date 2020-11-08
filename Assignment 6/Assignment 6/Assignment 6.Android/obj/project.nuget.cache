@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oNGyIoU/SPexTN3cSmOTIQRh5L2uAhozcvQc1rj52S3zChDRMS6eOm4Mo8NRC/NLxUcqwk0D9VheuaXedPhrpQ==",
+  "dgSpecHash": "qTpBaLscingiwXoeEvq8px4GTS3td4RK0PUAiGhEQp+utgGEinZ8mO48eELK3qwuowImJr2C5ueK7J++zUpVsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mickyle Otto\\Documents\\GitHub\\FutureInnoLab\\Assignment 6\\Assignment 6\\Assignment 6.Android\\Assignment 6.Android.csproj",
+  "projectFilePath": "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\Assignment 6\\Assignment 6\\Assignment 6.Android\\Assignment 6.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

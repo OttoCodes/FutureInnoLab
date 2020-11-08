@@ -1,24 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Assignment_6"
              x:Class="Assignment_6.MainPage">
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
-    </StackLayout>
+    <ContentPage.BindingContext>
+        <local:MainViewModel/>
+    </ContentPage.BindingContext>
+        <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+    
+    <StackLayout Grid.Column="0"
+                 Grid.ColumnSpan="3"
+                 Grid.Row="0">
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="First National Bank" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            
+        </StackLayout>
+        <Entry x:Name="amountDeposit"  Keyboard="Numeric" Placeholder="Enter amount"  Margin="0,24,0,0" MaxLength="32" WidthRequest="500" Grid.Row="1" Grid.Column="0" />
+        <Entry x:Name="reasonDeposit"  Placeholder="Enter reason" Margin="0,24,0,0" MaxLength="32" WidthRequest="500" Grid.Row="1" Grid.Column="1" />
+        <Button Text="Deposit" Grid.Row="1" Grid.Column="2" Clicked="Button_Clicked"/>
 
+        <Entry x:Name="amountWithdraw"  Keyboard="Numeric" Placeholder="Enter amount" Margin="0,24,0,0" MaxLength="32" WidthRequest="500" Grid.Row="2" Grid.Column="0" />
+        <Entry x:Name="reasonWithdraw" Placeholder="Enter reason" Margin="0,24,0,0" MaxLength="32" WidthRequest="500" Grid.Row="2" Grid.Column="1" />
+        <Button Text="Withdraw" Grid.Row="2" Grid.Column="2" Clicked="Button_Clicked_1"/>
+        
+        <Button Text="TransactionHistory" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Clicked="Button_Clicked_2"/>
+        <Label x:Name="TransactionHistory" Text="TransactionHistory" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3"/>
+    </Grid>
 </ContentPage>

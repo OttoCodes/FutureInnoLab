@@ -24,7 +24,7 @@ namespace ConvertNum
             string[] wordsofnumbers = {"Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten",
                                    "Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen"};
 
-            string[] wordsoftens = {"Twenty", "Thirty", "Fourty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninty"};
+            string[] wordsoftens = { "Twenty", "Thirty", "Fourty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninty" };
 
             string[] wordsofmore= { "Hundred", "Thousand", "Million"};
             string numberInWord = null;

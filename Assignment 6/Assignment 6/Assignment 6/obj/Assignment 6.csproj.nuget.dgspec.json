@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mickyle Otto\\Documents\\GitHub\\FutureInnoLab\\Assignment 6\\Assignment 6\\Assignment 6\\Assignment 6.csproj": {}
+    "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\Assignment 6\\Assignment 6\\Assignment 6\\Assignment 6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mickyle Otto\\Documents\\GitHub\\FutureInnoLab\\Assignment 6\\Assignment 6\\Assignment 6\\Assignment 6.csproj": {
+    "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\Assignment 6\\Assignment 6\\Assignment 6\\Assignment 6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mickyle Otto\\Documents\\GitHub\\FutureInnoLab\\Assignment 6\\Assignment 6\\Assignment 6\\Assignment 6.csproj",
+        "projectUniqueName": "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\Assignment 6\\Assignment 6\\Assignment 6\\Assignment 6.csproj",
         "projectName": "Assignment 6",
-        "projectPath": "C:\\Users\\Mickyle Otto\\Documents\\GitHub\\FutureInnoLab\\Assignment 6\\Assignment 6\\Assignment 6\\Assignment 6.csproj",
-        "packagesPath": "C:\\Users\\Mickyle Otto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mickyle Otto\\Documents\\GitHub\\FutureInnoLab\\Assignment 6\\Assignment 6\\Assignment 6\\obj\\",
+        "projectPath": "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\Assignment 6\\Assignment 6\\Assignment 6\\Assignment 6.csproj",
+        "packagesPath": "C:\\Users\\Mickyle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\Assignment 6\\Assignment 6\\Assignment 6\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mickyle Otto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mickyle\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -26,7 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "http://packagesource": {}
         },
         "frameworks": {
           "netstandard2.0": {
