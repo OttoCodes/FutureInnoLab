@@ -25,19 +25,21 @@ namespace Assignment_6
 
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private async void Button_Clicked(object sender, EventArgs e)
         {
             decimal amount = Decimal.Parse(amountDeposit.Text.ToString());
             string reason = reasonDeposit.Text.ToString();
             account.DepositMoney(amount, DateTime.Now, reason);
+            await DisplayAlert("Information!", $"You have deposited R{amount}", "OK");
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
+        private async void Button_Clicked_1(object sender, EventArgs e)
         {
             decimal amount = Decimal.Parse(amountWithdraw.Text.ToString());
             string reason = reasonWithdraw.Text.ToString();
             
             account.WithdrawMoney(amount, DateTime.Now, reason);
+            await DisplayAlert("Information!", $"You have withdrawn R{amount}", "OK");
         }
 
         private void Button_Clicked_2(object sender, EventArgs e)
