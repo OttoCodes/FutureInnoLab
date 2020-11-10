@@ -25,7 +25,7 @@ namespace Assignment_6
 
         }
 
-        private async void Button_Clicked(object sender, EventArgs e)
+        private async void ButtonToDeposit_Clicked(object sender, EventArgs e)
         {
             decimal amount = Decimal.Parse(amountDeposit.Text.ToString());
             string reason = reasonDeposit.Text.ToString();
@@ -33,7 +33,7 @@ namespace Assignment_6
             await DisplayAlert("Information!", $"You have deposited R{amount}", "OK");
         }
 
-        private async void Button_Clicked_1(object sender, EventArgs e)
+        private async void ButtonToWithdraw_Clicked(object sender, EventArgs e)
         {
             decimal amount = Decimal.Parse(amountWithdraw.Text.ToString());
             string reason = reasonWithdraw.Text.ToString();
@@ -42,11 +42,13 @@ namespace Assignment_6
             await DisplayAlert("Information!", $"You have withdrawn R{amount}", "OK");
         }
 
-        private void Button_Clicked_2(object sender, EventArgs e)
+        private void ButtonForHistory_Clicked(object sender, EventArgs e)
         {
             string history = account.GetTransactionHistory();
             TransactionHistory.Text = history;
         }
+
+        
 
         
     }

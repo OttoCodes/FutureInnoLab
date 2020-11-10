@@ -13,11 +13,11 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="4*"/>
         </Grid.RowDefinitions>
     
     <StackLayout Grid.Column="0"
@@ -30,13 +30,15 @@
         </StackLayout>
         <Entry x:Name="amountDeposit"  Keyboard="Numeric" Placeholder="Enter amount"  Margin="0,24,0,0" MaxLength="32" WidthRequest="500" Grid.Row="1" Grid.Column="0" />
         <Entry x:Name="reasonDeposit"  Placeholder="Enter reason" Margin="0,24,0,0" MaxLength="32" WidthRequest="500" Grid.Row="1" Grid.Column="1" />
-        <Button Text="Deposit" Grid.Row="1" Grid.Column="2" Clicked="Button_Clicked"/>
+        <Button Text="Deposit" Grid.Row="1" Grid.Column="2" Clicked="ButtonToDeposit_Clicked"/>
 
         <Entry x:Name="amountWithdraw"  Keyboard="Numeric" Placeholder="Enter amount" Margin="0,24,0,0" MaxLength="32" WidthRequest="500" Grid.Row="2" Grid.Column="0" />
         <Entry x:Name="reasonWithdraw" Placeholder="Enter reason" Margin="0,24,0,0" MaxLength="32" WidthRequest="500" Grid.Row="2" Grid.Column="1" />
-        <Button Text="Withdraw" Grid.Row="2" Grid.Column="2" Clicked="Button_Clicked_1"/>
+        <Button Text="Withdraw" Grid.Row="2" Grid.Column="2" Clicked="ButtonToWithdraw_Clicked"/>
         
-        <Button Text="TransactionHistory" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Clicked="Button_Clicked_2"/>
-        <Label x:Name="TransactionHistory" Text="TransactionHistory" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3"/>
+        <Button Text="TransactionHistory" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Clicked="ButtonForHistory_Clicked"/>
+        <ScrollView>
+            <Label x:Name="TransactionHistory" Text="TransactionHistory" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3"/>
+        </ScrollView>
     </Grid>
 </ContentPage>
