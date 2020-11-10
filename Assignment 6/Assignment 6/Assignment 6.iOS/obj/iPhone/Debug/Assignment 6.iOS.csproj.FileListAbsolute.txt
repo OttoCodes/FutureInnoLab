@@ -57,3 +57,13 @@ C:\Users\Mickyle Otto\Documents\GitHub\FutureInnoLab\Assignment 6\Assignment 6\A
 C:\Users\Mickyle Otto\Documents\GitHub\FutureInnoLab\Assignment 6\Assignment 6\Assignment 6.iOS\obj\iPhone\Debug\Assignment 6.iOS.csproj.CopyComplete
 C:\Users\Mickyle Otto\Documents\GitHub\FutureInnoLab\Assignment 6\Assignment 6\Assignment 6.iOS\obj\iPhone\Debug\Assignment 6.iOS.exe
 C:\Users\Mickyle Otto\Documents\GitHub\FutureInnoLab\Assignment 6\Assignment 6\Assignment 6.iOS\obj\iPhone\Debug\Assignment 6.iOS.pdb
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment 6\Assignment 6\Assignment 6.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment 6\Assignment 6\Assignment 6.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment 6\Assignment 6\Assignment 6.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment 6\Assignment 6\Assignment 6.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment 6\Assignment 6\Assignment 6.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment 6\Assignment 6\Assignment 6.iOS\obj\iPhone\Debug\optimized\
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment 6\Assignment 6\Assignment 6.iOS\obj\iPhone\Debug\Assignment 6.iOS.csprojAssemblyReference.cache
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment 6\Assignment 6\Assignment 6.iOS\obj\iPhone\Debug\Assignment 6.iOS.csproj.CoreCompileInputs.cache
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment 6\Assignment 6\Assignment 6.iOS\obj\iPhone\Debug\Assignment 6.iOS.exe
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment 6\Assignment 6\Assignment 6.iOS\obj\iPhone\Debug\Assignment 6.iOS.pdb

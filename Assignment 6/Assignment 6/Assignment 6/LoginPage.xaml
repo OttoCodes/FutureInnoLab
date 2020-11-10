@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment_6.LoginPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="First National Bank" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Label Text="Create an Account" HorizontalTextAlignment="Center"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Label Text="Name" Grid.Column="0" Grid.Row="0"/>
+                <Entry Placeholder="Bob" Text="{Binding FirstName}" Grid.Column="1" Grid.Row="0"/>
+
+                <Label Text="Surname" Grid.Column="0" Grid.Row="1"/>
+                <Entry Placeholder="The Builder" Text="{Binding LastName}" Grid.Column="1" Grid.Row="1"/>
+
+                <Label Text="Address" Grid.Column="0" Grid.Row="2"/>
+                <Entry Placeholder="NASA" Text="{Binding ResidentialAddress}" Grid.Column="1" Grid.Row="2"/>
+
+                <Label Text="ID" Grid.Column="0" Grid.Row="3"/>
+                <Entry Placeholder="123456789" Text="{Binding IdNumber}" Grid.Column="1" Grid.Row="3"/>
+            </Grid>
+            <Button Text="Create" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

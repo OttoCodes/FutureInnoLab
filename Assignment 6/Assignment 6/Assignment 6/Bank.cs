@@ -22,6 +22,7 @@ namespace Banking
         public void AddCustomer(Customer customer)
         {
             BankingCustomers.Add(customer);
+
         }
     }
 }
