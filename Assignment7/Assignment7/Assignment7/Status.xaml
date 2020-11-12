@@ -6,18 +6,46 @@
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height = "8*"/>
+                <RowDefinition Height = "10*"/>
+                <RowDefinition Height = "*"/>
                 <RowDefinition Height = "*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="5*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <ScrollView>
-                <ListView>
+            <ScrollView Grid.Column="0"
+                           Grid.Row="0"
+                           Grid.ColumnSpan="2"
+                           Grid.RowSpan="2">
+                <TableView Intent="Data"
+                           >
+                    <TableRoot >
+                        <TableSection  >
 
-                </ListView>
+                            <ViewCell
+                                       
+                             >
+
+                                <StackLayout Orientation="Horizontal">
+                                    <ImageButton Source="unknown.png"/>
+                                    <StackLayout>
+                                        <Label Text="My Status" 
+                                                Font="Bold,15"/>
+                                        <Label Text="Tap to add status update" />
+                                    </StackLayout>
+                                    
+                                </StackLayout>
+                            </ViewCell>
+
+                        </TableSection>
+                    </TableRoot>
+                </TableView>
             </ScrollView>
+            <ImageButton Source="edit.png" Grid.Column="1"
+                           Grid.Row="1"/>
+            <ImageButton Source="camera.png" Grid.Column="1"
+                           Grid.Row="2"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

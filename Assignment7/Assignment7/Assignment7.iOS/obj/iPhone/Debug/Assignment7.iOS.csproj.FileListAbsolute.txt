@@ -1,0 +1,9 @@
+C:\Users\Mickyle Otto\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.iOS\obj\iPhone\Debug\build-signature\signature
+C:\Users\Mickyle Otto\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Mickyle Otto\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\Mickyle Otto\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\Mickyle Otto\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\Mickyle Otto\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Mickyle Otto\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.iOS\obj\iPhone\Debug\optimized\
+C:\Users\Mickyle Otto\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.iOS\obj\iPhone\Debug\Assignment7.iOS.csprojAssemblyReference.cache
+C:\Users\Mickyle Otto\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.iOS\obj\iPhone\Debug\Assignment7.iOS.csproj.CoreCompileInputs.cache

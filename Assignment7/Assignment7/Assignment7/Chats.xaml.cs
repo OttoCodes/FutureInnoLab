@@ -12,14 +12,15 @@ namespace Assignment7
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Chats : ContentPage
     {
+        
         public Chats()
         {
             InitializeComponent();
         }
 
-        private void Contact_Tapped(object sender, EventArgs e)
+        async void Contact_Tapped(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new MessagePage());
         }
     }
 }

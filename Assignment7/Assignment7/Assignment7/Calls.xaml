@@ -13,11 +13,38 @@
                 <ColumnDefinition Width="5*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <ScrollView>
-            <ListView>
+            <ScrollView Grid.Column="0"
+                           Grid.Row="0"
+                           Grid.ColumnSpan="2"
+                           Grid.RowSpan="2">
+                <TableView Intent="Data"
+                           >
+                    <TableRoot >
+                        <TableSection  >
 
-            </ListView>
-        </ScrollView>
+                            <ViewCell
+                                       
+                              Tapped="ViewCell_Tapped" >
+                                
+                                <StackLayout Orientation="Horizontal">
+                                    <ImageButton Source="blueGuy.png"/>
+                                    <StackLayout>
+                                        <Label Text="Blue Guy"
+                                               TextColor="#503026" />
+                                        <Label Text="+12356789"
+                                               TextColor="#503026" />
+                                    </StackLayout>
+                                    <Image Source="phone.png" HorizontalOptions="EndAndExpand" VerticalOptions="End"/>
+                                    
+                                </StackLayout>
+                            </ViewCell>
+                            
+                        </TableSection>
+                    </TableRoot>
+                </TableView>
+            </ScrollView>
+            <ImageButton Source="add_phone.png" Grid.Column="1"
+                           Grid.Row="1"/>
         </Grid>
         
     </ContentPage.Content>

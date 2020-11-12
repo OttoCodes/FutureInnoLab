@@ -16,5 +16,10 @@ namespace Assignment7
         {
             InitializeComponent();
         }
+
+        private void ViewCell_Tapped(object sender, EventArgs e)
+        {
+
+        }
     }
 }

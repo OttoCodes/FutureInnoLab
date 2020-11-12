@@ -1930,24 +1930,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mickyle\\.nuget\\packages\\": {},
+    "C:\\Users\\Mickyle Otto\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\Assignment7\\Assignment7\\Assignment7.Android\\Assignment7.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Mickyle Otto\\source\\repos\\FutureInnoLab\\Assignment7\\Assignment7\\Assignment7.Android\\Assignment7.Android.csproj",
       "projectName": "Assignment7.Android",
-      "projectPath": "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\Assignment7\\Assignment7\\Assignment7.Android\\Assignment7.Android.csproj",
-      "packagesPath": "C:\\Users\\Mickyle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\Assignment7\\Assignment7\\Assignment7.Android\\obj\\",
+      "projectPath": "C:\\Users\\Mickyle Otto\\source\\repos\\FutureInnoLab\\Assignment7\\Assignment7\\Assignment7.Android\\Assignment7.Android.csproj",
+      "packagesPath": "C:\\Users\\Mickyle Otto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mickyle Otto\\source\\repos\\FutureInnoLab\\Assignment7\\Assignment7\\Assignment7.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mickyle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mickyle Otto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1956,13 +1956,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\Assignment7\\Assignment7\\Assignment7\\Assignment7.csproj": {
-              "projectPath": "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\Assignment7\\Assignment7\\Assignment7\\Assignment7.csproj"
+            "C:\\Users\\Mickyle Otto\\source\\repos\\FutureInnoLab\\Assignment7\\Assignment7\\Assignment7\\Assignment7.csproj": {
+              "projectPath": "C:\\Users\\Mickyle Otto\\source\\repos\\FutureInnoLab\\Assignment7\\Assignment7\\Assignment7\\Assignment7.csproj"
             }
           }
         }
