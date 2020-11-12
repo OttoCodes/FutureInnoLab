@@ -17,8 +17,8 @@
                            Grid.Row="0"
                            Grid.ColumnSpan="2"
                            Grid.RowSpan="2">
-                <TableView Intent="Data"
-                           >
+                <TableView Intent="Data">
+                    
                     <TableRoot >
                         <TableSection >
                             

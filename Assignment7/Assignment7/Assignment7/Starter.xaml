@@ -7,6 +7,11 @@
              BarBackgroundColor="#25d366"
              >
 
+    <NavigationPage.TitleView>
+        
+        <Label Text="Hello World" />
+       
+    </NavigationPage.TitleView>
 
     <local:Chats />
     <local:Status />
