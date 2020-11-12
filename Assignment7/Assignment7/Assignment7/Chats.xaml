@@ -13,22 +13,28 @@
                 <ColumnDefinition Width="5*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <ScrollView>
-                <TableView Intent="Data"
-                           Grid.Column="0"
+            <ScrollView Grid.Column="0"
                            Grid.Row="0"
                            Grid.ColumnSpan="2"
                            Grid.RowSpan="2">
-                    <TableRoot>
-                        <TableSection>
+                <TableView Intent="Data"
+                           >
+                    <TableRoot >
+                        <TableSection >
                             <ViewCell x:Name="contact"
-                              Tapped="Contact_Tapped">
+                              Tapped="Contact_Tapped" >
                                 <StackLayout Orientation="Horizontal">
-                                    <Label Text="left"
-                                 TextColor="#f35e20" />
-                                    <Label Text="right"
-                                 HorizontalOptions="EndAndExpand"
+                                    <ImageButton Source="iconfinder_Camera_2202258.png"/>
+
+                                    <StackLayout>
+                                        <Label Text="Chat name"
+                                 
                                  TextColor="#503026" />
+                                        <Label Text="Chats last message"
+                                 
+                                 TextColor="#503026" />
+                                    </StackLayout>
+                                    
                                 </StackLayout>
 
                             </ViewCell>
