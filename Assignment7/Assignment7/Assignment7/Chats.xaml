@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment7.Chats"
+             Title="Chats">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height = "8*"/>
+                <RowDefinition Height = "*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <ScrollView>
+                <TableView Intent="Data"
+                           Grid.Column="0"
+                           Grid.Row="0"
+                           Grid.ColumnSpan="2"
+                           Grid.RowSpan="2">
+                    <TableRoot>
+                        <TableSection>
+                            <ViewCell x:Name="contact"
+                              Tapped="Contact_Tapped">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="left"
+                                 TextColor="#f35e20" />
+                                    <Label Text="right"
+                                 HorizontalOptions="EndAndExpand"
+                                 TextColor="#503026" />
+                                </StackLayout>
+
+                            </ViewCell>
+                        </TableSection>
+                    </TableRoot>
+                </TableView>
+            </ScrollView>
+            <Button Text="click" Grid.Column="1" Grid.Row="1"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
