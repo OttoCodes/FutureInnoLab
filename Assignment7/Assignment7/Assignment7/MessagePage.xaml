@@ -7,14 +7,37 @@
     
     <ContentPage.Content>
         <StackLayout>
+            <Grid>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="8*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="8*"/>
+                    <ColumnDefinition Width="*"/>
+                  
+                </Grid.ColumnDefinitions>
 
-            
+                <ListView Grid.Row="0"
+                          Grid.Column="0"
+                          Grid.ColumnSpan="2">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding Text}"
+                          Detail="{Binding Date}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
 
-            <Frame BackgroundColor="White"
+
+                </ListView>
+
+                <Frame BackgroundColor="White"
                    Padding="0"
                    Margin="0"
                    CornerRadius="50"
-                    >
+                   Grid.Column="0" Grid.Row="1" >
+                    
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height= "Auto"/>
@@ -28,14 +51,19 @@
                     </Grid.ColumnDefinitions>
 
                         <ImageButton Source="emoji.png" Grid.Column="0" Grid.Row="1"/>
-                        <Entry Placeholder="Type here" Grid.Column="1" Grid.Row="1"/>
+                        <Entry x:Name="box" Placeholder="Type here" Grid.Column="1" Grid.Row="1" PropertyChanged="Entry_PropertyChanged"/>
                         <ImageButton Source="attachments.png" Grid.Column="2" Grid.Row="1"/>
                         <ImageButton Source="camera.png" Grid.Column="3" Grid.Row="1"/>
 
 
                     </Grid>
+                    
             </Frame>
-                <ImageButton Source="record.png" Grid.Column="1" Grid.Row="1"/>
+
+                <ImageButton x:Name="record" Source="record.png" Grid.Column="1" Grid.Row="1" IsVisible="true" IsEnabled="False"/>
+                <ImageButton x:Name="enter" Source="enter.png" Grid.Column="1" Grid.Row="1" IsVisible="false" IsEnabled="False"/>
+                
+                </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

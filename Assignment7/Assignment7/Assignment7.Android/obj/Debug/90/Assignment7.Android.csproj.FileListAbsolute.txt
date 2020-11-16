@@ -954,3 +954,21 @@ C:\Users\Mickyle Otto\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignm
 C:\Users\Mickyle Otto\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\attachments.png
 C:\Users\Mickyle Otto\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\emoji.png
 C:\Users\Mickyle Otto\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\record.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\message.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\camera.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\blueguy.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\twitter.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\monkey.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\reddit.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\whatsappicon.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\phone.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\unknown.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\edit.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\add_phone.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\chatbackground.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\attachments.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\emoji.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\record.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\search.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\search1.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\enter.png

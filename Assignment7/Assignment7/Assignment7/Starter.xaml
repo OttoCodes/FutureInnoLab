@@ -4,19 +4,38 @@
              xmlns:local="clr-namespace:Assignment7;assembly=Assignment7"
              x:Class="Assignment7.Starter"
              Title="WhatsApp"
-             BarBackgroundColor="#25d366"
-             >
+            >
 
     <NavigationPage.TitleView>
         
-        <Label Text="WhatsApp" FontSize ="Header" />
+        <Label Text="WhatsApp" FontSize ="Title" />
        
     </NavigationPage.TitleView>
     <TabbedPage.ToolbarItems>
-        <ToolbarItem Text="Example Item"
-          
+        <ToolbarItem IconImageSource="search1.png"
+            
                  Order="Primary"
                  Priority="0" />
+        <ToolbarItem Text="New Group"
+           
+                 Order="Secondary"
+                 Priority="0" />
+        <ToolbarItem Text="New broadcast"
+          
+                 Order="Secondary"
+                 Priority="1" />
+        <ToolbarItem Text="WhatsApp Web"
+          
+                 Order="Secondary"
+                 Priority="2" />
+        <ToolbarItem Text="Starred messages"
+          
+                 Order="Secondary"
+                 Priority="3" />
+        <ToolbarItem Text="Settings"
+          
+                 Order="Secondary"
+                 Priority="4" />
     </TabbedPage.ToolbarItems>
     
     

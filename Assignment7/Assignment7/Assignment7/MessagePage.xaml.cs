@@ -16,5 +16,25 @@ namespace Assignment7
         {
             InitializeComponent();
         }
+
+        private void Entry_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+        {
+            string none = string.Empty;
+
+            if (box.Text != null && box.Text != none )
+            {
+                record.IsEnabled = false;
+                record.IsVisible = false;
+                enter.IsEnabled = true;
+                enter.IsVisible = true;
+            }
+            else
+            {
+                record.IsEnabled = true;
+                record.IsVisible = true;
+                enter.IsEnabled = false;
+                enter.IsVisible = false;
+            }
+        }
     }
 }
