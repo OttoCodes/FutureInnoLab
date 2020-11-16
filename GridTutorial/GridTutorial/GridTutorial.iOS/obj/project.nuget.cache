@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "a1G0EDK65+5L6bLIzQ8Tn0x2zJTEnwyZvYPtUmRVYFTr8CjBIdv1UbP8p5GsD2wpq+rY37dncuJBsaE8b4CmCw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\GridTutorial\\GridTutorial\\GridTutorial.iOS\\GridTutorial.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+  ],
+  "logs": []
+}
