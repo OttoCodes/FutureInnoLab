@@ -9,9 +9,17 @@
 
     <NavigationPage.TitleView>
         
-        <Label Text="Hello World" />
+        <Label Text="WhatsApp" FontSize ="Header" />
        
     </NavigationPage.TitleView>
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="Example Item"
+          
+                 Order="Primary"
+                 Priority="0" />
+    </TabbedPage.ToolbarItems>
+    
+    
 
     <local:Chats />
     <local:Status />

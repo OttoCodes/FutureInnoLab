@@ -10,7 +10,7 @@
 
             
 
-            <Frame                  BackgroundColor="White"
+            <Frame BackgroundColor="White"
                    Padding="0"
                    Margin="0"
                    CornerRadius="50"
