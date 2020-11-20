@@ -4,7 +4,15 @@
              x:Class="Assignment7.MessagePage"
              Title ="Message"
              BackgroundImageSource="chatBackground.png">
-    
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="ImageButton">
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
     <ContentPage.Content>
         <StackLayout>
             <Grid>

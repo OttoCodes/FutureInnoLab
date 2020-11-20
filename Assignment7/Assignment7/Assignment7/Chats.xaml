@@ -4,6 +4,16 @@
              x:Class="Assignment7.Chats"
              Title="Chats"
              >
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="ImageButton">
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>

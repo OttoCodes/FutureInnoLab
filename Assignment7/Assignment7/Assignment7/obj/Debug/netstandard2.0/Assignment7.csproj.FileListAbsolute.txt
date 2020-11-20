@@ -34,3 +34,21 @@ C:\Users\Mickyle Otto\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignm
 C:\Users\Mickyle Otto\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\MessagePage.xaml.g.cs
 C:\Users\Mickyle Otto\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\Assignment7.csprojAssemblyReference.cache
 C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\MessagePage.xaml.g.cs
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\bin\Debug\netstandard2.0\Assignment7.deps.json
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\bin\Debug\netstandard2.0\Assignment7.dll
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\bin\Debug\netstandard2.0\ref\Assignment7.dll
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\bin\Debug\netstandard2.0\Assignment7.pdb
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\Assignment7.csprojAssemblyReference.cache
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\Calls.xaml.g.cs
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\Chats.xaml.g.cs
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\MessagePage.xaml.g.cs
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\Starter.xaml.g.cs
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\Status.xaml.g.cs
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\Assignment7.AssemblyInfoInputs.cache
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\Assignment7.AssemblyInfo.cs
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\Assignment7.csproj.CoreCompileInputs.cache
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\XamlC.stamp
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\Assignment7.dll
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\ref\Assignment7.dll
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7\obj\Debug\netstandard2.0\Assignment7.pdb

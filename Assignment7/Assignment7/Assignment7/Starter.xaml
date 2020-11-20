@@ -6,6 +6,8 @@
              Title="WhatsApp"
             >
 
+
+
     <NavigationPage.TitleView>
         
         <Label Text="WhatsApp" FontSize ="Title" />
@@ -37,9 +39,10 @@
                  Order="Secondary"
                  Priority="4" />
     </TabbedPage.ToolbarItems>
-    
-    
 
+
+
+    
     <local:Chats />
     <local:Status />
     <local:Calls />
