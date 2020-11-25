@@ -4,5 +4,13 @@
              x:Class="Assignment7.App">
     <Application.Resources>
 
+        <ResourceDictionary>
+
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#25d366"/>
+                
+            </Style>
+        </ResourceDictionary>
+        
     </Application.Resources>
 </Application>

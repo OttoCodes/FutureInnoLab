@@ -1466,3 +1466,6 @@ C:\xamarin\Lab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\stamp\_C
 C:\xamarin\Lab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\xamarin\Lab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\xamarin\Lab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\whatsapp_splash.png
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\splash_screen.xml
+C:\xamarin\Lab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\android\src\crc64ca2a3defcda120a1\SplashActivity.java
