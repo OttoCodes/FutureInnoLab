@@ -1469,3 +1469,7 @@ C:\xamarin\Lab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\stamp\_R
 C:\xamarin\Lab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\whatsapp_splash.png
 C:\xamarin\Lab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\splash_screen.xml
 C:\xamarin\Lab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\android\src\crc64ca2a3defcda120a1\SplashActivity.java
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\whatsapp_splash.png
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\res\drawable\splash_screen.xml
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\android\src\crc64ca2a3defcda120a1\SplashActivity.java
+C:\Users\Mickyle\source\repos\FutureInnoLab\Assignment7\Assignment7\Assignment7.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll

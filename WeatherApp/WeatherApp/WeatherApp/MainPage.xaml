@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherApp.MainPage"
+              BackgroundColor="LightYellow">
+
+    <StackLayout>
+     
+
+        <Frame BackgroundColor="LightBlue" CornerRadius="25">
+            <Label Text="The weather in Cape Town" FontSize="Medium" FontAttributes="Bold"/>
+        </Frame>
+
+        <Frame CornerRadius="50" BackgroundColor="LightBlue">
+            <Label FontSize="Subtitle" x:Name="Heading" Padding="10" FontAttributes="Bold" />
+        </Frame>
+        
+        <Frame CornerRadius="50" BackgroundColor="LightBlue">
+        <Grid Padding="5">
+            <Grid.RowDefinitions >
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Grid.Row="0" Grid.RowSpan="4" x:Name="Weathericon" Margin="10" />
+                <Label Grid.Row="0" Grid.Column="1" x:Name="Tempp" Padding="10" FontAttributes="Bold" FontSize="Medium"/>
+                <Label Grid.Row="1" Grid.Column="1" x:Name="FeelsLike" Padding="10" FontAttributes="Bold"/>
+                <Label Grid.Row="2" Grid.Column="1" x:Name="Main" Padding="10" FontAttributes="Bold"/>
+                <Label Grid.Row="3" Grid.Column="1" x:Name="Descr" Padding="10" FontAttributes="Bold"/>
+
+        </Grid>
+        </Frame>
+        <Frame CornerRadius="50" BackgroundColor="LightBlue">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="0" Padding="10">
+                <Image/>
+                <Label x:Name="Winddegree"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="0" Padding="10">
+                <Image/>
+                <Label x:Name="Clouds"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.Column="0" Padding="10">
+                <Image/>
+                <Label x:Name="Humidity"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="1" Padding="10">
+                <Image/>
+                <Label x:Name="WindSpeed"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="1" Padding="10">
+                <Image/>
+                <Label x:Name="UVrays"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.Column="1" Padding="10">
+                <Image/>
+                <Label/>
+            </StackLayout>
+            
+        </Grid>
+
+        </Frame>
+    </StackLayout>
+
+</ContentPage>

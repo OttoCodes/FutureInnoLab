@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TShirtOrderingApp.NewOrder"
+             xmlns:local="clr-namespace:TShirtOrderingApp"
+             Title="Add a new Order">
+
+
+    <ContentPage.BindingContext>
+        <local:OrderViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            
+            <Style TargetType="Frame" >
+                <Setter Property="CornerRadius" Value="25"/>
+                <Setter Property="BackgroundColor" Value="LightGreen"/>
+            </Style>
+            
+            <Style TargetType="Label" >
+                <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
+               
+                <Setter Property="FontAttributes" Value="Bold"/>
+                
+                
+            </Style>
+            
+            <Style TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="CornerRadius" Value="25"/>
+                <Setter Property="BackgroundColor" Value="LightGreen"/>
+            </Style>
+
+            <Style TargetType="Entry">
+                <Setter Property="Margin" Value="10"/>
+                <Setter Property="FontAttributes" Value="Italic"/>
+                
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    
+    <ContentPage.Content>
+        <StackLayout >
+            <Grid>
+                <Grid.RowDefinitions>
+                    
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    
+                    
+                </Grid.RowDefinitions>
+                
+                <Grid.ColumnDefinitions>
+                    
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="3*"/>
+                    
+                </Grid.ColumnDefinitions>
+
+                <Frame  Grid.Row="0" Grid.Column="0">
+                    <Label  Text="Name"/>
+                </Frame>
+                <Frame  Grid.Row="1" Grid.Column="0">
+                    <Label  Text="Gender"/>
+                </Frame>
+                <Frame  Grid.Row="2" Grid.Column="0">
+                    <Label  Text="T-Shirt Size"/>
+                </Frame>
+                <Frame  Grid.Row="3" Grid.Column="0">
+                    <Label  Text="T-Shirt Color"/>
+                </Frame>
+                <Frame  Grid.Row="4" Grid.Column="0">
+                    <Label  Text="Shipping Address" FontSize="Micro"/>
+                </Frame>
+                
+                
+                
+                
+                
+                
+
+                <Entry Grid.Row="0" Grid.Column="1" Text="{Binding Name}" />
+                <Entry Grid.Row="1" Grid.Column="1" Text="{Binding Gender}"/>
+                <Entry Grid.Row="2" Grid.Column="1" Text="{Binding Size}"/>
+                <Entry Grid.Row="3" Grid.Column="1" Text="{Binding Color}"/>
+                <Entry Grid.Row="4" Grid.Column="1" Text="{Binding Address}"/>
+
+            </Grid>
+            <Button Text="Save"  Command="{Binding SaveButtonCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

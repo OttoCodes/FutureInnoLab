@@ -1,0 +1,24 @@
+﻿{
+  "UserData": [
+    {
+      "FirstName": "Mickyle",
+      "LastName": "Otto",
+      "Picture": "stuff"
+    },
+    {
+      "FirstName": "Eric",
+      "LastName": "Pentdragon",
+      "Picture": "stuff"
+    },
+    {
+      "FirstName": "Jane",
+      "LastName": "Doe",
+      "Picture": "stuff"
+    },
+    {
+      "FirstName": "Magik",
+      "LastName": "Karp",
+      "Picture": "stuff"
+    }
+  ]
+}

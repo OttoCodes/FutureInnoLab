@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment7.Views.Status"
+             Title="Status">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="ImageButton">
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    
+    
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height = "10*"/>
+                <RowDefinition Height = "*"/>
+                <RowDefinition Height = "*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <ScrollView Grid.Column="0"
+                           Grid.Row="0"
+                           Grid.ColumnSpan="2"
+                           Grid.RowSpan="2">
+                <TableView Intent="Data"
+                           >
+                    <TableRoot >
+                        <TableSection  >
+
+                            <ViewCell
+                                       
+                             >
+
+                                <StackLayout Orientation="Horizontal">
+                                    <ImageButton Source="unknown.png"/>
+                                    <StackLayout>
+                                        <Label Text="My Status" 
+                                                Font="Bold,15"/>
+                                        <Label Text="Tap to add status update" />
+                                    </StackLayout>
+                                    
+                                </StackLayout>
+                            </ViewCell>
+
+                        </TableSection>
+                    </TableRoot>
+                </TableView>
+            </ScrollView>
+            <ImageButton Source="edit.png" Grid.Column="1"
+                           Grid.Row="1"/>
+            <ImageButton Source="camera.png" Grid.Column="1"
+                           Grid.Row="2"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

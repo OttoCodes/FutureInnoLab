@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TShirtOrderingApp.MainPage"
+             xmlns:local="clr-namespace:TShirtOrderingApp"
+             Title="T-Shirt Ordering List">
+
+
+    <ContentPage.BindingContext>
+        <local:OrderListViewModel/>
+    </ContentPage.BindingContext>
+    
+    
+    
+    
+    <ContentPage.ToolbarItems>
+
+        <ToolbarItem Text="delete" Order="Primary" Command="{Binding DeleteCommand}" />
+        <ToolbarItem IconImageSource="plus.png"
+                     Order="Primary"
+                     Command="{Binding AddButtonCommand}"
+                     />
+        
+    </ContentPage.ToolbarItems>
+    
+    
+    <StackLayout>
+        
+
+        <ListView ItemsSource="{Binding List}" HasUnevenRows="True"  SelectedItem="{Binding SelectedOrder }"   >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            
+                        </Grid.RowDefinitions>
+                        
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="3*" />
+                            <ColumnDefinition Width="3*" />
+                        </Grid.ColumnDefinitions>
+
+
+
+                        <Label Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" FontAttributes="Italic" Text="{Binding Id}" />
+                        <Label Grid.Column="1" Grid.Row="0" FontAttributes="Italic" Text="{Binding Name}" />
+                        <Label Grid.Column="1" Grid.Row="1" FontAttributes="Italic" Text="{Binding Gender}"/>
+                        <Label  Grid.Column="1" Grid.Row="2" FontAttributes="Italic" Text="{Binding Address}"/>
+                        <Label  Grid.Column="2" Grid.Row="0" FontAttributes="Italic" Text="{Binding Color}"/>
+                        <Label  Grid.Column="2" Grid.Row="1" FontAttributes="Italic" Text="{Binding DateOfOrder}"/>
+                        <Label  Grid.Column="2" Grid.Row="2" FontAttributes="Italic" Text="{Binding Size}"/>
+
+                    </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+       
+    </StackLayout>
+
+</ContentPage>

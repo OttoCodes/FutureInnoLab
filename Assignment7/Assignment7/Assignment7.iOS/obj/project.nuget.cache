@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cka97IExt/LTp4EXkxv4ysB5eLwocjhLngBjvnpQA/VyxuHslf2BJ4tCBy8rhSYukx8cu6XojKhlkdZaIMvuEQ==",
+  "dgSpecHash": "vJ0N8PVv4/SzypLAI5fjV9wXM6vHAAnCO4bX9g2OsItVzjf41DuuEpEOFgjHEjtBB1R5CRNJTpbUuhIWiQLL2g==",
   "success": true,
-  "projectFilePath": "C:\\xamarin\\Lab\\Assignment7\\Assignment7\\Assignment7.iOS\\Assignment7.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Mickyle\\source\\repos\\FutureInnoLab\\Assignment7\\Assignment7\\Assignment7.iOS\\Assignment7.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Mickyle\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\Mickyle Otto\\.nuget\\packages\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
   "logs": []
 }
